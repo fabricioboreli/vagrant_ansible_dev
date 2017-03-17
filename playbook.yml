@@ -1,0 +1,18 @@
+---
+- name: Provisioning task for the vagrant box
+  hosts: all
+  become: true
+  gather_facts: true
+          
+#  roles:
+#    - role: mariadb_server
+#      users:
+#        - username: alice
+#          password: alice123
+#          database: alice
+#          allowed_host: "%"
+#  
+#        - username: bob
+#          password: bob123
+#          database: bob
+#          allowed_host: 192.168.64.1

@@ -1,3 +1,7 @@
+# ignored
+sync_centos_lab/
+sync_debian_lab/
+
 
 # Created by https://www.gitignore.io/api/vagrant,vim
 
